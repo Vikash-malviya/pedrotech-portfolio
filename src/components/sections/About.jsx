@@ -4,12 +4,16 @@ export const About = () => {
   const frontendSkills = [
     "React",
     "Vue",
-    "TypeScript",
+    "Angular",
     "TailwindCSS",
-    "Svelte",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "PostgreSQL", "GraphQL"];
 
   return (
     <section
@@ -69,11 +73,11 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> (BCA) Bachelor's of Computer Application</strong> - Manipal University Jaipur
+                  (2024-2026)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
+                  Relevant Coursework: Data Structures & Algorithm , Web Development, Cloud
                   Computing...
                 </li>
               </ul>
@@ -84,7 +88,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Software Engineer at ..... (2025 - Present){" "}
                   </h4>
                   <p>
                     Developed and maintained microservices for cloud-based
@@ -95,7 +99,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Intern at ....... (2025){" "}
                   </h4>
                   <p>
                     Assisted in building front-end components and integration
